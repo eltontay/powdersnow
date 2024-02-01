@@ -6,7 +6,7 @@ import {
 } from '@coinbase/onchainkit';
 import { NextRequest, NextResponse } from 'next/server';
 
-const NEXT_PUBLIC_URL = 'https://zizzamia.xyz';
+const NEXT_PUBLIC_URL = 'https://eltontay.eth';
 
 async function getResponse(req: NextRequest): Promise<NextResponse> {
   let accountAddress: string | undefined = '';
@@ -29,7 +29,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
           label: `🌊 ${accountAddress} 🌊`,
         },
       ],
-      image: `${NEXT_PUBLIC_URL}/park-2.png`,
+      image: `${NEXT_PUBLIC_URL}/MADPOWER2.jpg`,
       post_url: `${NEXT_PUBLIC_URL}/api/frame`,
     }),
   );

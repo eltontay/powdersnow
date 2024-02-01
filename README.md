@@ -12,7 +12,7 @@ Have fun! ⛵️
 import { getFrameMetadata } from '@coinbase/onchainkit';
 import type { Metadata } from 'next';
 
-const NEXT_PUBLIC_URL = 'https://zizzamia.xyz';
+const NEXT_PUBLIC_URL = 'https://eltontay.eth';
 
 const frameMetadata = getFrameMetadata({
   buttons: [
@@ -25,10 +25,10 @@ const frameMetadata = getFrameMetadata({
 });
 
 export const metadata: Metadata = {
-  title: 'zizzamia.xyz',
+  title: 'eltontay.eth',
   description: 'LFG',
   openGraph: {
-    title: 'zizzamia.xyz',
+    title: 'eltontay.eth',
     description: 'LFG',
     images: [`${NEXT_PUBLIC_URL}/park-1.png`],
   },
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>zizzamia.xyz</h1>
+      <h1>eltontay.eth</h1>
     </>
   );
 }
@@ -74,7 +74,7 @@ import {
 } from '@coinbase/onchainkit';
 import { NextRequest, NextResponse } from 'next/server';
 
-const NEXT_PUBLIC_URL = 'https://zizzamia.xyz';
+const NEXT_PUBLIC_URL = 'https://eltontay.eth';
 
 async function getResponse(req: NextRequest): Promise<NextResponse> {
   let accountAddress: string | undefined = '';

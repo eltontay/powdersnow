@@ -1,25 +1,25 @@
 import { getFrameMetadata } from '@coinbase/onchainkit';
 import type { Metadata } from 'next';
 
-const NEXT_PUBLIC_URL = 'https://zizzamia.xyz';
+const NEXT_PUBLIC_URL = 'https://eltontay.eth';
 
 const frameMetadata = getFrameMetadata({
   buttons: [
     {
-      label: 'Click Me',
+      label: 'Click For Powder Blessing',
     },
   ],
-  image: `${NEXT_PUBLIC_URL}/park-1.png`,
+  image: `${NEXT_PUBLIC_URL}/MADPOWDER`,
   post_url: `${NEXT_PUBLIC_URL}/api/frame`,
 });
 
 export const metadata: Metadata = {
-  title: 'zizzamia.xyz',
-  description: 'LFG',
+  title: 'eltontay.eth',
+  description: 'POWDER',
   openGraph: {
-    title: 'zizzamia.xyz',
-    description: 'LFG',
-    images: [`${NEXT_PUBLIC_URL}/park-1.png`],
+    title: 'eltontay.eth',
+    description: 'POWDER',
+    images: [`${NEXT_PUBLIC_URL}/MADPOWDER1.jpg`],
   },
   other: {
     ...frameMetadata,
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <h1>zizzamia.xyz</h1>
+      <h1>eltontay.eth</h1>
     </>
   );
 }
